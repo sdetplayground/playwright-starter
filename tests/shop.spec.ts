@@ -7,5 +7,5 @@ test('the shop opens', async ({ page }) => {
 
 test('the shop shows the coffee mug', async ({ page }) => {
   await page.goto('/');
-  await expect(page.getByRole('heading', { name: 'Ceramic Coffee Mug' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Ceramic Coffee Mug', exact: true })).toBeVisible();
 });
