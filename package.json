@@ -1,0 +1,12 @@
+{
+  "name": "playwright-starter",
+  "private": true,
+  "description": "A small Playwright project for the SDET Playground course.",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0"
+  }
+}

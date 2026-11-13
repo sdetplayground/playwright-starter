@@ -1,0 +1,10 @@
+{
+  "name": "SDET Playground: Playwright starter",
+  "image": "mcr.microsoft.com/playwright:v1.64.0-noble",
+  "postCreateCommand": "npm ci",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-playwright.playwright"]
+    }
+  }
+}
